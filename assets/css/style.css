@@ -27,7 +27,10 @@
 .yellow-text {
       color: var(--primarybirght);
    }
-
+   .invis {
+      color: transparent;
+    
+ }
 
 .housingTheme1{
   font-family: "Open Sans", sans-serif;
@@ -210,6 +213,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 16px;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
+  
 }
 
 .nav-menu a:before {
@@ -443,7 +447,7 @@ section .container {
 
 .about-me .content ul i {
   font-size: 20px;
-  padding-right: 2px;
+  padding-right: 10px;
   color: var(--primarybirght);
 }
 
